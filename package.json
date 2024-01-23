@@ -1,0 +1,26 @@
+{
+  "name": "roadmap_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosCalderon01/RoadMap_NodeJs.git"
+  },
+  "author": "carlos.calderon01@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosCalderon01/RoadMap_NodeJs/issues"
+  },
+  "homepage": "https://github.com/CarlosCalderon01/RoadMap_NodeJs#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
