@@ -5,7 +5,7 @@ const fsPromises = fs.promises
 async function ClassDirectoryCreate (pathFileTxt, nameNewFile) {
   try {
     const newDirectoryPath = path.join(pathFileTxt, nameNewFile)
-    await fsPromises.mkdir(newDirectoryPath) // created new directory
+    await fsPromises.mkdir(newDirectoryPath)
     console.log('Create Directoory Sucess!')
   } catch (err) {
     console.error(err)
@@ -20,12 +20,4 @@ module.exports = ClassDirectoryCreate
 /*
   - Una clase que crea una nueva carpeta de forma asyncronica
   - recibe dos argumentos (direccion Archivo, Nombre Archivo)
-*
-
-// ----- // ----- // ----- // BIBLIOGRAFIA // ----- // ----- // ----- //
-
-/*
-  -
 */
-
-// ----- // ----- // ----- // ----- // ----- // ----- // ----- //
